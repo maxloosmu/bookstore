@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<div class="p-3">
+  <div class="container">
+    <div class="row mt-3">
+      <div class="col-md-6 mx-auto mb-3">
+      <h2>About Us</h2>
+      <hr />
+      <p>
+        At Django Book Store, we offer the latest books about Python Django.  With just a few clicks, you can order your favourite titles and see your order in your cart.
+      </p>
+      <p>
+        Discover the convenience of our digital platform, where you have the flexibility to order a book on your preferred device, whether it's a PC, tablet, or smartphone.
+      </p>
+      </div>
+      <div class="col-md-6 mx-auto mb-3 text-center">
+      <img src="{% static 'img/about.png' %}" 
+        class="max-width-100" 
+        alt="about" />
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}

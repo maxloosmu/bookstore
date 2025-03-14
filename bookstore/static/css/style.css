@@ -1,0 +1,29 @@
+.bg-index{
+  /* position: relative; */
+  background: url("/static/img/background.jpg") no-repeat fixed;
+  background-size: 100% auto;
+}
+
+.navbar a.nav-link {
+  color: #FFFEF6 !important;
+}
+
+.bg-dark {
+  background-color: #2E2E2E !important;
+}
+
+/* .bg-index::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 1;
+} */
+
+/* .bg-index * {
+  position: relative;
+  z-index: 2;
+} */
