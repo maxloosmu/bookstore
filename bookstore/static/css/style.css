@@ -39,6 +39,16 @@
   color: #fff;
 }
 
+.img-card-200 {
+  width: fit-content;
+  max-height: 200px;
+}
+
+.img-card-300 {
+  width: fit-content;
+  max-height: 300px;
+}
+
 /* .bg-index::before {
   content: "";
   position: absolute;
